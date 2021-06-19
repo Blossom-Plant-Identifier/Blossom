@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+      <title>Blossom || Search</title>
+
+   <img src="logo.PNG" class="logo1" style="width:671px;height:371px;"/>
+        <a href="index.html"><img src="homebutton.PNG" class="homebtn" style="width:155.2px;height:156.24px;"/></a>
+
+<div class="border" id="border"style=" border-style: solid;
+  border-color: black;width:300px; display:none">
+  <div id="filler"class="filler" style="background-color: white;height:24px;"></div>
+  <h1 style="font-size: 20px;"id="name" class="name"></h1>
+</div>
+
+<div class="border2" id="border2"style=" border-style: solid;
+  border-color: black;width:300px;display:none">
+  <div id="filler2"class="filler2" style="background-color: white;height:24px;"></div>
+  <h1 style="font-size: 20px;"id="name2" class="name2"></h1>
+</div>
+
+<div class="border3" id="border3"style=" border-style: solid;
+  border-color: black;width:300px;display:none">
+  <div id="filler3"class="filler3" style="background-color: white;height:24px;"></div>
+  <h1 style="font-size: 20px;"id="name3" class="name3"></h1>
+</div>
+
+<div class="border4" id="border4"style=" border-style: solid;
+  border-color: black;width:300px;display:none">
+  <div id="filler4"class="filler4" style="background-color: white;height:24px;"></div>
+  <h1 style="font-size: 20px;"id="name4" class="name4"></h1>
+</div>
+
+<div class="border5" id="border5"style=" border-style: solid;
+  border-color: black;width:300px;display:none">
+  <div id="filler5"class="filler5" style="background-color: white;height:24px;"></div>
+  <h1 style="font-size: 20px;"id="name5" class="name5"></h1>
+</div>
+
+<div class="border6" id="border6"style=" border-style: solid;
+  border-color: black;width:300px;display:none">
+  <div id="filler6"class="filler6" style="background-color: white;height:24px;"></div>
+  <h1 style="font-size: 20px;"id="name6" class="name6"></h1>
+</div>
+
+<div class="border7" id="border7"style=" border-style: solid;
+  border-color: black;width:300px;display:none">
+  <div id="filler7"class="filler7" style="background-color: white;height:24px;"></div>
+  <h1 style="font-size: 20px;"id="name7" class="name7"></h1>
+</div>
+
+<div class="border8" id="border8"style=" border-style: solid;
+  border-color: black;width:300px;display:none">
+  <div id="filler8"class="filler8" style="background-color: white;height:24px;"></div>
+  <h1 style="font-size: 20px;"id="name8" class="name8"></h1>
+</div>
+
+<div class="border9" id="border9"style=" border-style: solid;
+  border-color: black;width:300px;display:none">
+  <div id="filler9"class="filler9" style="background-color: white;height:24px;"></div>
+  <h1 style="font-size: 20px;"id="name9" class="name9"></h1>
+</div>
+<div class="border10" id="border10"style=" border-style: solid;
+  border-color: black;width:300px;display:none">
+  <div id="filler10"class="filler10" style="background-color: white;height:24px;"></div>
+  <h1 style="font-size: 20px;"id="name10" class="name10"></h1>
+</div>
+<button class="btn"id="res1" onclick="getres1()"></button>
+<button class="btn"id="res2" onclick="getres2()"></button>
+<button class="btn"id="res3" onclick="getres3()"></button>
+<button class="btn"id="res4" onclick="getres4()"></button>
+<button class="btn"id="res5" onclick="getres5()"></button>
+<button class="btn"id="res6" onclick="getres6()"></button>
+<button class="btn"id="res7" onclick="getres7()"></button>
+<button class="btn"id="res8" onclick="getres8()"></button>
+<button class="btn"id="res9" onclick="getres9()"></button>
+<button class="btn"id="res10" onclick="getres10()"></button>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <script
+    src="https://code.jquery.com/jquery-3.4.0.min.js"
+    integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script> 
+    <body>
+
+        <label for="file-input" class="custom-file-upload">
+    <img src="uploadimagebutton.PNG" class="uploadbutton" style="width:280px;height:126.6px;" onclick="setTimeout(reload, 35);"/>
+</label>
+        <input #imageInput type="file" accept="image/*" id="file-input" onchange="readURL(this);setTimeout(sendRequest, 25); TestsFunction()">
+       
+     <img id="blah" src="" style="display: none" onload="this.style.display=''"/>
+      </div>
+
+      <div class="container">
+    <div class="header">
+  
+    </div>
+    <div class="search">
+           <div  style="display:none !important">
+      <input id="search-box" type="text" />
+
+      <button id="search-button" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+          </div>
+      <div  style="display:none !important">
+      <button id="search-random" type="submit">Random <i class="fa fa-random" aria-hidden="true"></i></button>
+
+    </div>
+    </div>
+          
+    <div class="container-main-articles2">
+
+    </div>
+    <div class="footer">
+      <p>
+   
+      </p>
+    </div>
+  </div>
+  
+    </body>
+<head>
+  
+      <script type="text/javascript" src="index.js"></script>
+</head>
+</html>
+  </body>
+</html>
